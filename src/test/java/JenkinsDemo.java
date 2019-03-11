@@ -33,14 +33,14 @@ public class JenkinsDemo
     public void testCasePassed()
     {
         //Assert.assertTrue(driver.findElement(By.xpath("//form[@id='login_form']")).isDisplayed());
-        assertEquals(4, 4);
+        //assertEquals(4, 4);
     }
 
     @Test
     public void testCaseFailed()
     {
         //Assert.assertTrue(driver.findElement(By.xpath("//form[@id='failed case']")).isDisplayed());
-         assertEquals(4, 4);
+         //assertEquals(4, 4);
     }
 
     @Ignore
@@ -48,6 +48,6 @@ public class JenkinsDemo
     public void testCaseIgnored()
     {
         //Assert.assertTrue(driver.findElement(By.xpath("//form[@id='ignored case']")).isDisplayed());
-        assertEquals(4, 4);
+        //assertEquals(4, 4);
     }
 }
